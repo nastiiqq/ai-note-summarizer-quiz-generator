@@ -58,4 +58,11 @@ textColor="fafafa"
 
 ### Demo
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/1b71c1b72ceb489a8dac2fcb3cc15601?sid=9dd5cfc4-eb72-4c11-9160-46705d0a3a5d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div>
+    <a href="https://www.loom.com/share/1b71c1b72ceb489a8dac2fcb3cc15601">
+      <p>AI Note Summarizer and Quiz Generator - 19 August 2025 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/1b71c1b72ceb489a8dac2fcb3cc15601">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/1b71c1b72ceb489a8dac2fcb3cc15601-03cd3246888959a5-full-play.gif">
+    </a>
+  </div>
