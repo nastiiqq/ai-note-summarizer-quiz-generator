@@ -1,7 +1,11 @@
 import os
 
+from dotenv import load_dotenv
+
 import streamlit as st
 import litellm
+
+load_dotenv()
 
 #Litellm API Key
 litellm.api_key = os.getenv("OPENAI_API_KEY")
@@ -36,7 +40,7 @@ if st.button("Start"):   #if button is pressed
         #  Call Litellm to get response
         try:
             response = litellm.completion(
-                model = "gpt-3.5-turbo",   #what AI model would be used
+                model = "gpt-4o",   #what AI model would be used
                 messages = [
                     {"role": "system", "content": "You are a helpful assistant."},  #sets tone and personality of AI (system)
                     {"role": "user", "content": prompt}   # your actual request (asking AI to summarize or generate)
